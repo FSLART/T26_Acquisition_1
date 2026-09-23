@@ -1,0 +1,6 @@
+../Core/Src/can.c:32:6:MX_CAN1_Init	3
+../Core/Src/can.c:68:6:MX_CAN2_Init	3
+../Core/Src/can.c:106:6:HAL_CAN_MspInit	5
+../Core/Src/can.c:199:6:HAL_CAN_MspDeInit	4
+../Core/Src/can.c:255:6:CAN_FilterConfig1	1
+../Core/Src/can.c:274:6:CAN_FilterConfig2	1
