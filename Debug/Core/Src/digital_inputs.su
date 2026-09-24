@@ -1,0 +1,3 @@
+../Core/Src/digital_inputs.c:11:6:DigitalInputs_Update	8	static
+../Core/Src/digital_inputs.c:16:9:DigitalInputs_GetRes	4	static
+../Core/Src/digital_inputs.c:20:9:DigitalInputs_GetBots	4	static

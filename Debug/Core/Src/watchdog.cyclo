@@ -1,0 +1,5 @@
+../Core/Src/watchdog.c:13:19:Watchdog_ReadResetCause	8
+../Core/Src/watchdog.c:38:6:Watchdog_Init	1
+../Core/Src/watchdog.c:47:6:Watchdog_Refresh	1
+../Core/Src/watchdog.c:51:12:Watchdog_GetResetCause	1
+../Core/Src/watchdog.c:55:13:Watchdog_GetResetCauseName	8

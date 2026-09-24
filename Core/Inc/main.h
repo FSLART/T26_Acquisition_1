@@ -61,8 +61,12 @@ void Error_Handler(void);
 #define APPS1_GPIO_Port GPIOA
 #define APPS2_Pin GPIO_PIN_0
 #define APPS2_GPIO_Port GPIOB
-#define BRAKE_PRESSURE_Pin GPIO_PIN_1
-#define BRAKE_PRESSURE_GPIO_Port GPIOB
+#define BRK_PRESS_Pin GPIO_PIN_1
+#define BRK_PRESS_GPIO_Port GPIOB
+#define BOTS_Pin GPIO_PIN_7
+#define BOTS_GPIO_Port GPIOC
+#define RES_Pin GPIO_PIN_8
+#define RES_GPIO_Port GPIOC
 #define HEARTBEAT_Pin GPIO_PIN_11
 #define HEARTBEAT_GPIO_Port GPIOC
 

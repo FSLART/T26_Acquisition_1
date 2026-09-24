@@ -1,2 +1,4 @@
-../Core/Src/can_messages.c:14:6:CanMsg_SendAppsAdcRaw	2
-../Core/Src/can_messages.c:29:6:CanMsg_SendAqt1	2
+../Core/Src/can_messages.c:19:6:CanMsg_SendAppsAdcRaw	2
+../Core/Src/can_messages.c:32:6:CanMsg_SendAqt1	2
+../Core/Src/can_messages.c:45:16:CanMsg_GetAppsAdcRawPayload	1
+../Core/Src/can_messages.c:49:16:CanMsg_GetAqt1Payload	1
