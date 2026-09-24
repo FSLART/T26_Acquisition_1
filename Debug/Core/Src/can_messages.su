@@ -1,0 +1,2 @@
+../Core/Src/can_messages.c:14:6:CanMsg_SendAppsAdcRaw	24	static
+../Core/Src/can_messages.c:29:6:CanMsg_SendAqt1	24	static

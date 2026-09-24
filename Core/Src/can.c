@@ -21,8 +21,7 @@
 #include "can.h"
 
 /* USER CODE BEGIN 0 */
-void CAN_FilterConfig1(void);
-void CAN_FilterConfig2(void);
+
 /* USER CODE END 0 */
 
 CAN_HandleTypeDef hcan1;
@@ -56,11 +55,7 @@ void MX_CAN1_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN CAN1_Init 2 */
-  CAN_FilterConfig1();
-    if (HAL_CAN_Start(&hcan1) != HAL_OK)
-    {
-      Error_Handler();
-    }
+
   /* USER CODE END CAN1_Init 2 */
 
 }
@@ -92,11 +87,7 @@ void MX_CAN2_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN CAN2_Init 2 */
-  CAN_FilterConfig2();
-    if (HAL_CAN_Start(&hcan2) != HAL_OK)
-    {
-      Error_Handler();
-    }
+
   /* USER CODE END CAN2_Init 2 */
 
 }
@@ -252,40 +243,5 @@ void HAL_CAN_MspDeInit(CAN_HandleTypeDef* canHandle)
 }
 
 /* USER CODE BEGIN 1 */
-// CAN1 and CAN2 share 28 filter banks: 0..13 -> CAN1, 14..27 -> CAN2.
-// Must be the same value in both configs, HAL rewrites the split on every call.
-#define CAN_SLAVE_START_FILTER_BANK 14
 
-// Accept every standard-ID data frame, reject all extended-ID and remote frames.
-// 32-bit mask mode: only the IDE and RTR bits are compared (both must be 0), ID bits are don't-care.
-static void CAN_ConfigStdOnlyFilter(CAN_HandleTypeDef *hcan, uint32_t filter_bank)
-{
-  CAN_FilterTypeDef canfilterconfig = {0};
-
-  canfilterconfig.FilterActivation = CAN_FILTER_ENABLE;
-  canfilterconfig.FilterBank = filter_bank;
-  canfilterconfig.FilterFIFOAssignment = CAN_FILTER_FIFO0;
-  canfilterconfig.FilterIdHigh = 0x0000;
-  canfilterconfig.FilterIdLow = 0x0000;                               // IDE = 0 (standard), RTR = 0 (data)
-  canfilterconfig.FilterMaskIdHigh = 0x0000;                          // any ID
-  canfilterconfig.FilterMaskIdLow = CAN_ID_EXT | CAN_RTR_REMOTE;      // must match: IDE and RTR bits
-  canfilterconfig.FilterMode = CAN_FILTERMODE_IDMASK;
-  canfilterconfig.FilterScale = CAN_FILTERSCALE_32BIT;
-  canfilterconfig.SlaveStartFilterBank = CAN_SLAVE_START_FILTER_BANK;
-
-  if (HAL_CAN_ConfigFilter(hcan, &canfilterconfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-}
-
-void CAN_FilterConfig1(void)
-{
-  CAN_ConfigStdOnlyFilter(&hcan1, 0);
-}
-
-void CAN_FilterConfig2(void)
-{
-  CAN_ConfigStdOnlyFilter(&hcan2, CAN_SLAVE_START_FILTER_BANK);
-}
 /* USER CODE END 1 */

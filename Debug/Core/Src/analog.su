@@ -1,0 +1,9 @@
+../Core/Src/analog.c:39:6:Analog_Init	8	static
+../Core/Src/analog.c:50:14:Analog_Average	24	static
+../Core/Src/analog.c:62:14:Analog_BrakePressureFromCounts	24	static
+../Core/Src/analog.c:76:6:Analog_Update	16	static
+../Core/Src/analog.c:92:7:Analog_GetApps1Counts	4	static
+../Core/Src/analog.c:97:7:Analog_GetApps2Counts	4	static
+../Core/Src/analog.c:102:7:Analog_GetBrakePressureBar	4	static
+../Core/Src/analog.c:107:7:Analog_GetVdda	4	static
+../Core/Src/analog.c:112:9:Analog_GetMcuTempC	4	static

@@ -1,0 +1,4 @@
+../Core/Src/wheel_speed.c:31:6:WheelSpeed_Init	16	static
+../Core/Src/wheel_speed.c:40:7:WheelSpeed_GetRpm	16	static
+../Core/Src/wheel_speed.c:54:13:WheelSpeed_OnCapture	24	static
+../Core/Src/wheel_speed.c:77:6:HAL_TIM_IC_CaptureCallback	32	static

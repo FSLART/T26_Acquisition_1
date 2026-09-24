@@ -1,0 +1,5 @@
+../Core/Src/app.c:19:6:App_Init	8	static
+../Core/Src/app.c:27:6:App_Loop	16	static
+../Core/Src/app.c:54:13:App_Task10ms	8	static
+../Core/Src/app.c:64:13:App_Task100ms	8	static
+../Core/Src/app.c:72:13:App_Task500ms	72	static
