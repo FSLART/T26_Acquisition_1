@@ -103,7 +103,7 @@ C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
                               ./Core/DBC/autonomous_t26.o (__aeabi_dmul)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
-                              ./Core/DBC/powertrain_t26.o (__aeabi_dsub)
+                              ./Core/DBC/data_t26.o (__aeabi_dsub)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
                               ./Core/DBC/autonomous_t26.o (__aeabi_ddiv)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
@@ -119,7 +119,7 @@ C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_fixdfdi.o)
                               ./Core/DBC/powertrain_t26.o (__aeabi_d2lz)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunsdfdi.o)
-                              ./Core/DBC/powertrain_t26.o (__aeabi_d2ulz)
+                              ./Core/DBC/data_t26.o (__aeabi_d2ulz)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
                               C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
@@ -350,38 +350,10 @@ Discarded input sections
                 0x00000000       0x22 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_aqt1_bots_is_in_phys_range
                 0x00000000       0x18 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_pack
-                0x00000000       0x70 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_unpack
-                0x00000000       0x56 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_init
-                0x00000000       0x28 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_wheel_spd_encode
-                0x00000000       0x38 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_wheel_spd_decode
-                0x00000000       0x40 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_wheel_spd_is_in_range
-                0x00000000       0x18 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt2_wheel_spd_is_in_phys_range
-                0x00000000       0x18 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_pack
-                0x00000000       0x70 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_unpack
-                0x00000000       0x56 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_init
-                0x00000000       0x28 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_wheel_spd_encode
-                0x00000000       0x38 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_wheel_spd_decode
-                0x00000000       0x40 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_wheel_spd_is_in_range
-                0x00000000       0x18 ./Core/DBC/autonomous_t26.o
- .text.autonomous_t26_aqt3_wheel_spd_is_in_phys_range
-                0x00000000       0x18 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_aqt4_pack
-                0x00000000      0x13c ./Core/DBC/autonomous_t26.o
+                0x00000000      0x144 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_aqt4_unpack
-                0x00000000       0xf6 ./Core/DBC/autonomous_t26.o
+                0x00000000       0xf2 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_aqt4_init
                 0x00000000       0x28 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_aqt4_st_angle_encode
@@ -910,6 +882,1312 @@ Discarded input sections
                 0x00000000       0x22 ./Core/DBC/autonomous_t26.o
  .text.autonomous_t26_slam_stats_can_cones_count_all_is_in_phys_range
                 0x00000000       0x18 ./Core/DBC/autonomous_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .group         0x00000000        0xc ./Core/DBC/data_t26.o
+ .text          0x00000000        0x0 ./Core/DBC/data_t26.o
+ .data          0x00000000        0x0 ./Core/DBC/data_t26.o
+ .bss           0x00000000        0x0 ./Core/DBC/data_t26.o
+ .text.pack_left_shift_u8
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.pack_left_shift_u16
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.pack_left_shift_u32
+                0x00000000       0x2c ./Core/DBC/data_t26.o
+ .text.pack_left_shift_u64
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.pack_right_shift_u16
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.pack_right_shift_u32
+                0x00000000       0x2c ./Core/DBC/data_t26.o
+ .text.pack_right_shift_u64
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.unpack_left_shift_u16
+                0x00000000       0x30 ./Core/DBC/data_t26.o
+ .text.unpack_left_shift_u32
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.unpack_left_shift_u64
+                0x00000000       0x54 ./Core/DBC/data_t26.o
+ .text.unpack_right_shift_u8
+                0x00000000       0x30 ./Core/DBC/data_t26.o
+ .text.unpack_right_shift_u16
+                0x00000000       0x30 ./Core/DBC/data_t26.o
+ .text.unpack_right_shift_u32
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.unpack_right_shift_u64
+                0x00000000       0x54 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_pack
+                0x00000000       0xb0 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_unpack
+                0x00000000       0x90 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_left_wheel_rpm_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_left_wheel_rpm_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_left_wheel_rpm_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_left_wheel_rpm_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_right_wheel_rpm_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_right_wheel_rpm_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_right_wheel_rpm_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt2_front_right_wheel_rpm_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_pack
+                0x00000000       0xda ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_unpack
+                0x00000000       0xa4 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_l_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_l_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_l_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_l_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_r_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_r_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_r_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_susp_r_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_ntc_1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_ntc_1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_ntc_1_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt7_ntc_1_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_pack
+                0x00000000       0xf4 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_unpack
+                0x00000000       0xc8 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc1_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc1_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc1_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc1_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc2_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc2_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc2_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc2_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc3_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc3_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc3_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt8_ntc3_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_pack
+                0x00000000       0xb8 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_unpack
+                0x00000000       0x8c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_inverter_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_inverter_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_inverter_is_in_range
+                0x00000000       0x3c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_inverter_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_motor_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_motor_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_motor_is_in_range
+                0x00000000       0x3c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv1_temperatures_inv1_temp_motor_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_pack
+                0x00000000       0xb8 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_unpack
+                0x00000000       0x8c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_inverter_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_inverter_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_inverter_is_in_range
+                0x00000000       0x3c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_inverter_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_motor_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_motor_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_motor_is_in_range
+                0x00000000       0x3c ./Core/DBC/data_t26.o
+ .text.data_t26_vcu_inv2_temperatures_inv2_temp_motor_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_pack
+                0x00000000       0x6c ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_unpack
+                0x00000000       0x58 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_lv_voltage_m_v_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_lv_voltage_m_v_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_lv_voltage_m_v_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_lv_lv_voltage_m_v_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_pack
+                0x00000000       0x6c ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_unpack
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_water_pump_pwm_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_water_pump_pwm_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_water_pump_pwm_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_water_pump_pwm_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_cooling_fan_pwm_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_cooling_fan_pwm_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_cooling_fan_pwm_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_pdm_cooling_cooling_fan_pwm_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_pack
+                0x00000000      0x166 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_unpack
+                0x00000000      0x112 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_ocs_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_ocs_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_ocs_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_ocs_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_meas_error_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_meas_error_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_meas_error_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_meas_error_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_sys_error_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_sys_error_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_sys_error_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_status_sys_error_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_msg_counter_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_msg_counter_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_msg_counter_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_msg_counter_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_current_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_current_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_current_is_in_range
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_current_is_in_phys_range
+                0x00000000       0x58 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_ubat_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_ubat_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_ubat_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_result_icd_ubat_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_pack
+                0x00000000      0x8f0 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_unpack
+                0x00000000      0x700 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_mux_id_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_mux_id_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_mux_id_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_mux_id_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_mode_is_in_phys_range
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_mode_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_averaging_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_averaging_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_averaging_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_averaging_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_pos_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_pos_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_pos_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_pos_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_baudrate_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_baudrate_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_baudrate_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_baudrate_is_in_phys_range
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw1_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw1_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_reset_option_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_reset_option_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_reset_option_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_reset_option_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_timer_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_timer_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_timer_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_timer_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_i_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_i_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_i_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_i_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_ah_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_ah_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_ah_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_wake_ah_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_output_rate_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_output_rate_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_output_rate_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_output_rate_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw1_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw1_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_mode_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw2_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw2_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_timer_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_timer_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_timer_is_in_range
+                0x00000000       0x26 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_timer_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw2_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw2_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw3_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw3_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_invert_current_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_invert_current_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_invert_current_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_op_invert_current_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw3_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw3_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_neg_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_neg_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_neg_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_oc_limit_neg_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_req_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_resp_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_can_id_res_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw4_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw4_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw4_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw4_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_i_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_i_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_i_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_i_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw4_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw4_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw4_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw4_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw5_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw5_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw5_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw5_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw5_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw5_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw5_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw5_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw6_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw6_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw6_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_new_pw6_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_ah_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_ah_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_ah_threshold_is_in_range
+                0x00000000       0x26 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_sleep_ah_threshold_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw6_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw6_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw6_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_request_req_access_pw6_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_pack
+                0x00000000     0x13ec ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_unpack
+                0x00000000      0xfc0 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_mux_id_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_mux_id_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_mux_id_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_mux_id_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_tchip_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_tchip_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_tchip_is_in_range
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_tchip_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ah_counter_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ah_counter_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ah_counter_is_in_range
+                0x00000000       0x16 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ah_counter_is_in_phys_range
+                0x00000000       0x54 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_mode_is_in_phys_range
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_access_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_access_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_access_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_access_mode_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_averaging_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_averaging_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_averaging_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_averaging_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_pos_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_pos_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_pos_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_pos_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_baudrate_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_baudrate_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_baudrate_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_baudrate_is_in_phys_range
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_sn_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_sn_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_sn_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_sn_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw1_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw1_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_reset_option_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_reset_option_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_reset_option_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_reset_option_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_timer_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_timer_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_timer_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_timer_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_frame_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_frame_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_frame_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_frame_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_major_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_major_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_major_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_major_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_serial_number_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_serial_number_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_serial_number_is_in_range
+                0x00000000       0x16 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_serial_number_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_frame_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_frame_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_frame_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_frame_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_article_number_encode
+                0x00000000       0x20 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_article_number_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_article_number_is_in_range
+                0x00000000       0x30 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_article_number_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_up_time_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_up_time_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_up_time_is_in_range
+                0x00000000       0x16 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_up_time_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_lifetime_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_lifetime_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_lifetime_is_in_range
+                0x00000000       0x16 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_lifetime_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_type_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_type_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_type_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_type_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_i_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_i_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_i_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_i_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_ah_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_ah_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_ah_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_wake_ah_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_output_rate_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_output_rate_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_output_rate_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_output_rate_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_mode_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_mode_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_mode_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_mode_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw2_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw2_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_timer_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_timer_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_timer_is_in_range
+                0x00000000       0x26 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_timer_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char1_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char1_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_minor_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_minor_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_minor_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_minor_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char1_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char1_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_type_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_type_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_type_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_type_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_text_encode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_text_decode
+                0x00000000       0x40 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_text_is_in_range
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_text_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw3_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw3_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char2_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char2_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_release_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_release_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_release_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_fw_release_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char2_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char2_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_calibration_data_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_calibration_data_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_calibration_data_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_calibration_data_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_count_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_count_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_count_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_meas_count_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_ocs_active_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_ocs_active_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_ocs_active_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_ocs_active_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_invert_current_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_invert_current_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_invert_current_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_op_invert_current_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_neg_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_neg_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_neg_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_oc_limit_neg_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_req_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_resp_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_id_encode
+                0x00000000       0x1c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_id_decode
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_id_is_in_range
+                0x00000000       0x24 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_can_id_res_id_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw4_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw4_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw4_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw4_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_i_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_i_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_i_threshold_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_i_threshold_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char3_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char3_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char3_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char3_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit1_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit1_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit1_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit1_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_adc_interrupt_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_adc_interrupt_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_adc_interrupt_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_adc_interrupt_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch1_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch1_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch1_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch1_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch2_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch2_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch2_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch2_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch3_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch3_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch3_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_overflow_adc_ch3_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_i_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_i_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_i_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_i_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_u_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_u_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_u_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_u_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_tchip_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_tchip_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_tchip_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_tchip_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_text_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_text_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_text_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ms_open_circuit_text_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw5_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw5_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw5_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw5_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char4_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char4_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char4_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char4_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char4_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char4_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char4_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char4_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit2_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit2_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit2_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit2_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_init_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_init_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_init_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_init_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_count_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_count_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_count_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_evt_sys_count_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_configuration_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_configuration_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_configuration_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_configuration_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_eeprom_rw_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_eeprom_rw_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_eeprom_rw_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_eeprom_rw_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_on_reset_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_on_reset_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_on_reset_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_on_reset_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_low_voltage_reset_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_low_voltage_reset_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_low_voltage_reset_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_low_voltage_reset_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_ext_pin_reset_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_ext_pin_reset_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_ext_pin_reset_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_ext_pin_reset_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_clock_mon_reset_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_clock_mon_reset_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_clock_mon_reset_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_clock_mon_reset_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cop_wd_reset_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cop_wd_reset_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cop_wd_reset_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cop_wd_reset_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw6_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw6_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw6_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_pw6_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_ah_threshold_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_ah_threshold_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_ah_threshold_is_in_range
+                0x00000000       0x26 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_sleep_ah_threshold_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char5_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char5_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char5_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_dev_id_char5_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char5_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char5_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char5_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char5_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit3_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit3_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit3_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit3_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_code_crc_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_code_crc_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_code_crc_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_code_crc_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cal_data_crc_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cal_data_crc_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cal_data_crc_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_cal_data_crc_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_rx_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_rx_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_rx_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_rx_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_tx_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_tx_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_tx_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_can_tx_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_overtemp_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_overtemp_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_overtemp_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_overtemp_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_undertemp_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_undertemp_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_undertemp_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_undertemp_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_failure_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_failure_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_failure_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_power_failure_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_clock_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_clock_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_clock_is_in_range
+                0x00000000       0x22 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_ss_system_clock_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char6_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char6_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char6_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_hw_ver_char6_is_in_phys_range
+                0x00000000       0x50 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit4_encode
+                0x00000000       0x34 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit4_decode
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit4_is_in_range
+                0x00000000       0x2e ./Core/DBC/data_t26.o
+ .text.data_t26_icd_response_resp_rev_digit4_is_in_phys_range
+                0x00000000       0x4c ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_pack
+                0x00000000       0x4a ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_unpack
+                0x00000000       0x38 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_init
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_throtle_percentage_encode
+                0x00000000       0x1e ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_throtle_percentage_decode
+                0x00000000       0x28 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_throtle_percentage_is_in_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .text.data_t26_aqt1_throtle_percentage_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/data_t26.o
+ .debug_info    0x00000000     0x73b9 ./Core/DBC/data_t26.o
+ .debug_abbrev  0x00000000      0x18f ./Core/DBC/data_t26.o
+ .debug_aranges
+                0x00000000     0x1370 ./Core/DBC/data_t26.o
+ .debug_rnglists
+                0x00000000      0xe9f ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x14c ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0xad8 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x22 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x5b ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x2a ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x94 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x43 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x34 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x190 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x57 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x370 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x16 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x4a ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x34 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x10 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x58 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x8e ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x1c ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x185 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x10 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x3c ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x20 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x103 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x6a ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x1df ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000       0x22 ./Core/DBC/data_t26.o
+ .debug_macro   0x00000000      0x4ee ./Core/DBC/data_t26.o
+ .debug_line    0x00000000     0x73bc ./Core/DBC/data_t26.o
+ .debug_str     0x00000000    0x11970 ./Core/DBC/data_t26.o
+ .comment       0x00000000       0x44 ./Core/DBC/data_t26.o
+ .debug_frame   0x00000000     0x5a04 ./Core/DBC/data_t26.o
+ .ARM.attributes
+                0x00000000       0x34 ./Core/DBC/data_t26.o
  .group         0x00000000        0xc ./Core/DBC/powertrain_t26.o
  .group         0x00000000        0xc ./Core/DBC/powertrain_t26.o
  .group         0x00000000        0xc ./Core/DBC/powertrain_t26.o
@@ -6640,9 +7918,9 @@ Discarded input sections
  .text.powertrain_t26_master_soc_accumulator_soc_float_is_in_phys_range
                 0x00000000       0x18 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_master_msc_id_4_pack
-                0x00000000       0x4a ./Core/DBC/powertrain_t26.o
+                0x00000000       0xb0 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_master_msc_id_4_unpack
-                0x00000000       0x38 ./Core/DBC/powertrain_t26.o
+                0x00000000       0x88 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_master_msc_id_4_init
                 0x00000000       0x28 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_master_msc_id_4_slaves_detected_encode
@@ -6653,6 +7931,22 @@ Discarded input sections
                 0x00000000       0x22 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_master_msc_id_4_slaves_detected_is_in_phys_range
                 0x00000000       0x4c ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_slave_id_encode
+                0x00000000       0x1e ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_slave_id_decode
+                0x00000000       0x28 ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_slave_id_is_in_range
+                0x00000000       0x18 ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_slave_id_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_encode
+                0x00000000       0x1e ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_decode
+                0x00000000       0x28 ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_is_in_range
+                0x00000000       0x18 ./Core/DBC/powertrain_t26.o
+ .text.powertrain_t26_master_msc_id_4_bal_bitmask_is_in_phys_range
+                0x00000000       0x18 ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_start_charging_pack
                 0x00000000       0x4a ./Core/DBC/powertrain_t26.o
  .text.powertrain_t26_start_charging_unpack
@@ -8500,7 +9794,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1df ./Core/Src/can_messages.o
  .debug_macro   0x00000000       0x22 ./Core/Src/can_messages.o
  .debug_macro   0x00000000      0x190 ./Core/Src/can_messages.o
- .debug_macro   0x00000000      0x63a ./Core/Src/can_messages.o
+ .debug_macro   0x00000000      0x5f4 ./Core/Src/can_messages.o
  .group         0x00000000        0xc ./Core/Src/debug.o
  .group         0x00000000        0xc ./Core/Src/debug.o
  .group         0x00000000        0xc ./Core/Src/debug.o
@@ -13053,6 +14347,7 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 LOAD ./Core/DBC/autonomous_t26.o
+LOAD ./Core/DBC/data_t26.o
 LOAD ./Core/DBC/powertrain_t26.o
 LOAD ./Core/Src/adc.o
 LOAD ./Core/Src/analog.o
@@ -14404,43 +15699,43 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x433fc
- .debug_info    0x00000000     0x4c95 ./Core/DBC/autonomous_t26.o
- .debug_info    0x00004c95    0x29ef4 ./Core/DBC/powertrain_t26.o
- .debug_info    0x0002eb89      0xa21 ./Core/Src/adc.o
- .debug_info    0x0002f5aa      0x803 ./Core/Src/analog.o
- .debug_info    0x0002fdad      0x58b ./Core/Src/app.o
- .debug_info    0x00030338      0xb38 ./Core/Src/can.o
- .debug_info    0x00030e70      0xb8f ./Core/Src/can_bus.o
- .debug_info    0x000319ff      0x328 ./Core/Src/can_messages.o
- .debug_info    0x00031d27      0x620 ./Core/Src/debug.o
- .debug_info    0x00032347      0x204 ./Core/Src/digital_inputs.o
- .debug_info    0x0003254b      0x4cb ./Core/Src/dma.o
- .debug_info    0x00032a16      0x439 ./Core/Src/gpio.o
- .debug_info    0x00032e4f      0x1b9 ./Core/Src/iwdg.o
- .debug_info    0x00033008      0x530 ./Core/Src/main.o
- .debug_info    0x00033538      0x299 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_info    0x000337d1      0xb64 ./Core/Src/stm32f4xx_it.o
- .debug_info    0x00034335      0x6a3 ./Core/Src/syscalls.o
- .debug_info    0x000349d8      0x168 ./Core/Src/sysmem.o
- .debug_info    0x00034b40      0x54a ./Core/Src/system_stm32f4xx.o
- .debug_info    0x0003508a      0xb4c ./Core/Src/tim.o
- .debug_info    0x00035bd6      0x6d5 ./Core/Src/timebase.o
- .debug_info    0x000362ab      0x94d ./Core/Src/usart.o
- .debug_info    0x00036bf8      0x46d ./Core/Src/watchdog.o
- .debug_info    0x00037065       0x30 ./Core/Startup/startup_stm32f412retx.o
- .debug_info    0x00037095      0x96a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_info    0x000379ff      0xce3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_info    0x000386e2      0xf4c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
- .debug_info    0x0003962e      0xd7a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_info    0x0003a3a8      0x8e7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_info    0x0003ac8f      0x70b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_info    0x0003b39a      0x1d8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
- .debug_info    0x0003b572      0x8ff ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_info    0x0003be71      0x7c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_info    0x0003c635     0x299d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_info    0x0003efd2     0x14db ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_info    0x000404ad     0x2f4f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+.debug_info     0x00000000    0x43250
+ .debug_info    0x00000000     0x4983 ./Core/DBC/autonomous_t26.o
+ .debug_info    0x00004983    0x2a05a ./Core/DBC/powertrain_t26.o
+ .debug_info    0x0002e9dd      0xa21 ./Core/Src/adc.o
+ .debug_info    0x0002f3fe      0x803 ./Core/Src/analog.o
+ .debug_info    0x0002fc01      0x58b ./Core/Src/app.o
+ .debug_info    0x0003018c      0xb38 ./Core/Src/can.o
+ .debug_info    0x00030cc4      0xb8f ./Core/Src/can_bus.o
+ .debug_info    0x00031853      0x328 ./Core/Src/can_messages.o
+ .debug_info    0x00031b7b      0x620 ./Core/Src/debug.o
+ .debug_info    0x0003219b      0x204 ./Core/Src/digital_inputs.o
+ .debug_info    0x0003239f      0x4cb ./Core/Src/dma.o
+ .debug_info    0x0003286a      0x439 ./Core/Src/gpio.o
+ .debug_info    0x00032ca3      0x1b9 ./Core/Src/iwdg.o
+ .debug_info    0x00032e5c      0x530 ./Core/Src/main.o
+ .debug_info    0x0003338c      0x299 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_info    0x00033625      0xb64 ./Core/Src/stm32f4xx_it.o
+ .debug_info    0x00034189      0x6a3 ./Core/Src/syscalls.o
+ .debug_info    0x0003482c      0x168 ./Core/Src/sysmem.o
+ .debug_info    0x00034994      0x54a ./Core/Src/system_stm32f4xx.o
+ .debug_info    0x00034ede      0xb4c ./Core/Src/tim.o
+ .debug_info    0x00035a2a      0x6d5 ./Core/Src/timebase.o
+ .debug_info    0x000360ff      0x94d ./Core/Src/usart.o
+ .debug_info    0x00036a4c      0x46d ./Core/Src/watchdog.o
+ .debug_info    0x00036eb9       0x30 ./Core/Startup/startup_stm32f412retx.o
+ .debug_info    0x00036ee9      0x96a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_info    0x00037853      0xce3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_info    0x00038536      0xf4c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+ .debug_info    0x00039482      0xd7a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_info    0x0003a1fc      0x8e7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_info    0x0003aae3      0x70b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_info    0x0003b1ee      0x1d8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+ .debug_info    0x0003b3c6      0x8ff ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_info    0x0003bcc5      0x7c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_info    0x0003c489     0x299d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_info    0x0003ee26     0x14db ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_info    0x00040301     0x2f4f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
 .debug_abbrev   0x00000000     0x40d7
  .debug_abbrev  0x00000000      0x18e ./Core/DBC/autonomous_t26.o
@@ -14480,156 +15775,156 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_abbrev  0x00003b46      0x283 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_abbrev  0x00003dc9      0x30e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_aranges  0x00000000     0x8c30
+.debug_aranges  0x00000000     0x8c00
  .debug_aranges
-                0x00000000      0xbd8 ./Core/DBC/autonomous_t26.o
+                0x00000000      0xb68 ./Core/DBC/autonomous_t26.o
  .debug_aranges
-                0x00000bd8     0x6d88 ./Core/DBC/powertrain_t26.o
+                0x00000b68     0x6dc8 ./Core/DBC/powertrain_t26.o
  .debug_aranges
-                0x00007960       0x30 ./Core/Src/adc.o
+                0x00007930       0x30 ./Core/Src/adc.o
  .debug_aranges
-                0x00007990       0x68 ./Core/Src/analog.o
+                0x00007960       0x68 ./Core/Src/analog.o
  .debug_aranges
-                0x000079f8       0x48 ./Core/Src/app.o
+                0x000079c8       0x48 ./Core/Src/app.o
  .debug_aranges
-                0x00007a40       0x38 ./Core/Src/can.o
+                0x00007a10       0x38 ./Core/Src/can.o
  .debug_aranges
-                0x00007a78       0x70 ./Core/Src/can_bus.o
+                0x00007a48       0x70 ./Core/Src/can_bus.o
  .debug_aranges
-                0x00007ae8       0x38 ./Core/Src/can_messages.o
+                0x00007ab8       0x38 ./Core/Src/can_messages.o
  .debug_aranges
-                0x00007b20       0x20 ./Core/Src/debug.o
+                0x00007af0       0x20 ./Core/Src/debug.o
  .debug_aranges
-                0x00007b40       0x30 ./Core/Src/digital_inputs.o
+                0x00007b10       0x30 ./Core/Src/digital_inputs.o
  .debug_aranges
-                0x00007b70       0x20 ./Core/Src/dma.o
+                0x00007b40       0x20 ./Core/Src/dma.o
  .debug_aranges
-                0x00007b90       0x20 ./Core/Src/gpio.o
+                0x00007b60       0x20 ./Core/Src/gpio.o
  .debug_aranges
-                0x00007bb0       0x20 ./Core/Src/iwdg.o
+                0x00007b80       0x20 ./Core/Src/iwdg.o
  .debug_aranges
-                0x00007bd0       0x30 ./Core/Src/main.o
+                0x00007ba0       0x30 ./Core/Src/main.o
  .debug_aranges
-                0x00007c00       0x20 ./Core/Src/stm32f4xx_hal_msp.o
+                0x00007bd0       0x20 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_aranges
-                0x00007c20       0xb0 ./Core/Src/stm32f4xx_it.o
+                0x00007bf0       0xb0 ./Core/Src/stm32f4xx_it.o
  .debug_aranges
-                0x00007cd0       0xa8 ./Core/Src/syscalls.o
+                0x00007ca0       0xa8 ./Core/Src/syscalls.o
  .debug_aranges
-                0x00007d78       0x20 ./Core/Src/sysmem.o
+                0x00007d48       0x20 ./Core/Src/sysmem.o
  .debug_aranges
-                0x00007d98       0x28 ./Core/Src/system_stm32f4xx.o
+                0x00007d68       0x28 ./Core/Src/system_stm32f4xx.o
  .debug_aranges
-                0x00007dc0       0x30 ./Core/Src/tim.o
+                0x00007d90       0x30 ./Core/Src/tim.o
  .debug_aranges
-                0x00007df0       0x30 ./Core/Src/timebase.o
+                0x00007dc0       0x30 ./Core/Src/timebase.o
  .debug_aranges
-                0x00007e20       0x30 ./Core/Src/usart.o
+                0x00007df0       0x30 ./Core/Src/usart.o
  .debug_aranges
-                0x00007e50       0x40 ./Core/Src/watchdog.o
+                0x00007e20       0x40 ./Core/Src/watchdog.o
  .debug_aranges
-                0x00007e90       0x28 ./Core/Startup/startup_stm32f412retx.o
+                0x00007e60       0x28 ./Core/Startup/startup_stm32f412retx.o
  .debug_aranges
-                0x00007eb8       0xf0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x00007e88       0xf0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_aranges
-                0x00007fa8       0xe8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+                0x00007f78       0xe8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
  .debug_aranges
-                0x00008090      0x138 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+                0x00008060      0x138 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
  .debug_aranges
-                0x000081c8      0x130 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x00008198      0x130 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_aranges
-                0x000082f8       0x90 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+                0x000082c8       0x90 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_aranges
-                0x00008388       0x58 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x00008358       0x58 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_aranges
-                0x000083e0       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+                0x000083b0       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
  .debug_aranges
-                0x00008408       0x88 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x000083d8       0x88 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_aranges
-                0x00008490       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+                0x00008460       0x60 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_aranges
-                0x000084f0      0x3d0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x000084c0      0x3d0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_aranges
-                0x000088c0      0x168 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x00008890      0x168 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_aranges
-                0x00008a28      0x208 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+                0x000089f8      0x208 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
 .debug_rnglists
-                0x00000000     0x6a51
+                0x00000000     0x6a2f
  .debug_rnglists
-                0x00000000      0x8f8 ./Core/DBC/autonomous_t26.o
+                0x00000000      0x8a4 ./Core/DBC/autonomous_t26.o
  .debug_rnglists
-                0x000008f8     0x530e ./Core/DBC/powertrain_t26.o
+                0x000008a4     0x5340 ./Core/DBC/powertrain_t26.o
  .debug_rnglists
-                0x00005c06       0x21 ./Core/Src/adc.o
+                0x00005be4       0x21 ./Core/Src/adc.o
  .debug_rnglists
-                0x00005c27       0x4b ./Core/Src/analog.o
+                0x00005c05       0x4b ./Core/Src/analog.o
  .debug_rnglists
-                0x00005c72       0x33 ./Core/Src/app.o
+                0x00005c50       0x33 ./Core/Src/app.o
  .debug_rnglists
-                0x00005ca5       0x27 ./Core/Src/can.o
+                0x00005c83       0x27 ./Core/Src/can.o
  .debug_rnglists
-                0x00005ccc       0x53 ./Core/Src/can_bus.o
+                0x00005caa       0x53 ./Core/Src/can_bus.o
  .debug_rnglists
-                0x00005d1f       0x25 ./Core/Src/can_messages.o
+                0x00005cfd       0x25 ./Core/Src/can_messages.o
  .debug_rnglists
-                0x00005d44       0x13 ./Core/Src/debug.o
+                0x00005d22       0x13 ./Core/Src/debug.o
  .debug_rnglists
-                0x00005d57       0x1f ./Core/Src/digital_inputs.o
+                0x00005d35       0x1f ./Core/Src/digital_inputs.o
  .debug_rnglists
-                0x00005d76       0x13 ./Core/Src/dma.o
+                0x00005d54       0x13 ./Core/Src/dma.o
  .debug_rnglists
-                0x00005d89       0x14 ./Core/Src/gpio.o
+                0x00005d67       0x14 ./Core/Src/gpio.o
  .debug_rnglists
-                0x00005d9d       0x13 ./Core/Src/iwdg.o
+                0x00005d7b       0x13 ./Core/Src/iwdg.o
  .debug_rnglists
-                0x00005db0       0x20 ./Core/Src/main.o
+                0x00005d8e       0x20 ./Core/Src/main.o
  .debug_rnglists
-                0x00005dd0       0x13 ./Core/Src/stm32f4xx_hal_msp.o
+                0x00005dae       0x13 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_rnglists
-                0x00005de3       0x7f ./Core/Src/stm32f4xx_it.o
+                0x00005dc1       0x7f ./Core/Src/stm32f4xx_it.o
  .debug_rnglists
-                0x00005e62       0x79 ./Core/Src/syscalls.o
+                0x00005e40       0x79 ./Core/Src/syscalls.o
  .debug_rnglists
-                0x00005edb       0x13 ./Core/Src/sysmem.o
+                0x00005eb9       0x13 ./Core/Src/sysmem.o
  .debug_rnglists
-                0x00005eee       0x1a ./Core/Src/system_stm32f4xx.o
+                0x00005ecc       0x1a ./Core/Src/system_stm32f4xx.o
  .debug_rnglists
-                0x00005f08       0x1f ./Core/Src/tim.o
+                0x00005ee6       0x1f ./Core/Src/tim.o
  .debug_rnglists
-                0x00005f27       0x1f ./Core/Src/timebase.o
+                0x00005f05       0x1f ./Core/Src/timebase.o
  .debug_rnglists
-                0x00005f46       0x20 ./Core/Src/usart.o
+                0x00005f24       0x20 ./Core/Src/usart.o
  .debug_rnglists
-                0x00005f66       0x2c ./Core/Src/watchdog.o
+                0x00005f44       0x2c ./Core/Src/watchdog.o
  .debug_rnglists
-                0x00005f92       0x19 ./Core/Startup/startup_stm32f412retx.o
+                0x00005f70       0x19 ./Core/Startup/startup_stm32f412retx.o
  .debug_rnglists
-                0x00005fab       0xaf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x00005f89       0xaf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_rnglists
-                0x0000605a       0xb5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+                0x00006038       0xb5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
  .debug_rnglists
-                0x0000610f       0xee ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+                0x000060ed       0xee ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
  .debug_rnglists
-                0x000061fd       0xe0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                0x000061db       0xe0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_rnglists
-                0x000062dd       0x70 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+                0x000062bb       0x70 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_rnglists
-                0x0000634d       0x3f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                0x0000632b       0x3f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_rnglists
-                0x0000638c       0x1a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+                0x0000636a       0x1a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
  .debug_rnglists
-                0x000063a6       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                0x00006384       0x66 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_rnglists
-                0x0000640c       0x4a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+                0x000063ea       0x4a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_rnglists
-                0x00006456      0x31a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                0x00006434      0x31a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_rnglists
-                0x00006770      0x125 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                0x0000674e      0x125 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_rnglists
-                0x00006895      0x1bc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+                0x00006873      0x1bc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_macro    0x00000000    0x2b33e
+.debug_macro    0x00000000    0x2b314
  .debug_macro   0x00000000      0x14c ./Core/DBC/autonomous_t26.o
  .debug_macro   0x0000014c      0xad8 ./Core/DBC/autonomous_t26.o
  .debug_macro   0x00000c24       0x22 ./Core/DBC/autonomous_t26.o
@@ -14656,196 +15951,196 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000017c7       0x6a ./Core/DBC/autonomous_t26.o
  .debug_macro   0x00001831      0x1df ./Core/DBC/autonomous_t26.o
  .debug_macro   0x00001a10       0x22 ./Core/DBC/autonomous_t26.o
- .debug_macro   0x00001a32      0x63a ./Core/DBC/autonomous_t26.o
- .debug_macro   0x0000206c      0x14c ./Core/DBC/powertrain_t26.o
- .debug_macro   0x000021b8     0x30a0 ./Core/DBC/powertrain_t26.o
- .debug_macro   0x00005258      0x223 ./Core/Src/adc.o
- .debug_macro   0x0000547b      0x2ad ./Core/Src/adc.o
- .debug_macro   0x00005728       0x2e ./Core/Src/adc.o
- .debug_macro   0x00005756       0x28 ./Core/Src/adc.o
- .debug_macro   0x0000577e       0x8e ./Core/Src/adc.o
- .debug_macro   0x0000580c       0x51 ./Core/Src/adc.o
- .debug_macro   0x0000585d       0x1c ./Core/Src/adc.o
- .debug_macro   0x00005879       0x22 ./Core/Src/adc.o
- .debug_macro   0x0000589b       0xfb ./Core/Src/adc.o
- .debug_macro   0x00005996     0x1011 ./Core/Src/adc.o
- .debug_macro   0x000069a7      0x11f ./Core/Src/adc.o
- .debug_macro   0x00006ac6    0x146b1 ./Core/Src/adc.o
- .debug_macro   0x0001b177       0x6d ./Core/Src/adc.o
- .debug_macro   0x0001b1e4     0x3693 ./Core/Src/adc.o
- .debug_macro   0x0001e877       0x5c ./Core/Src/adc.o
- .debug_macro   0x0001e8d3      0x902 ./Core/Src/adc.o
- .debug_macro   0x0001f1d5      0x9e9 ./Core/Src/adc.o
- .debug_macro   0x0001fbbe      0x115 ./Core/Src/adc.o
- .debug_macro   0x0001fcd3      0x192 ./Core/Src/adc.o
- .debug_macro   0x0001fe65       0xa5 ./Core/Src/adc.o
- .debug_macro   0x0001ff0a      0x158 ./Core/Src/adc.o
- .debug_macro   0x00020062      0x287 ./Core/Src/adc.o
- .debug_macro   0x000202e9       0x5f ./Core/Src/adc.o
- .debug_macro   0x00020348      0x236 ./Core/Src/adc.o
- .debug_macro   0x0002057e      0x9e1 ./Core/Src/adc.o
- .debug_macro   0x00020f5f      0x38b ./Core/Src/adc.o
- .debug_macro   0x000212ea      0x176 ./Core/Src/adc.o
- .debug_macro   0x00021460       0xf9 ./Core/Src/adc.o
- .debug_macro   0x00021559      0x40f ./Core/Src/adc.o
- .debug_macro   0x00021968      0x132 ./Core/Src/adc.o
- .debug_macro   0x00021a9a      0x29c ./Core/Src/adc.o
- .debug_macro   0x00021d36       0x2e ./Core/Src/adc.o
- .debug_macro   0x00021d64       0x78 ./Core/Src/adc.o
- .debug_macro   0x00021ddc      0x127 ./Core/Src/adc.o
- .debug_macro   0x00021f03       0x91 ./Core/Src/adc.o
- .debug_macro   0x00021f94       0x89 ./Core/Src/adc.o
- .debug_macro   0x0002201d      0x8ed ./Core/Src/adc.o
- .debug_macro   0x0002290a       0x4d ./Core/Src/adc.o
- .debug_macro   0x00022957      0x2aa ./Core/Src/adc.o
- .debug_macro   0x00022c01      0x126 ./Core/Src/adc.o
- .debug_macro   0x00022d27       0x4c ./Core/Src/adc.o
- .debug_macro   0x00022d73      0x293 ./Core/Src/analog.o
- .debug_macro   0x00023006      0x376 ./Core/Src/app.o
- .debug_macro   0x0002337c       0x61 ./Core/Src/app.o
- .debug_macro   0x000233dd       0x16 ./Core/Src/app.o
- .debug_macro   0x000233f3       0x10 ./Core/Src/app.o
- .debug_macro   0x00023403       0x16 ./Core/Src/app.o
- .debug_macro   0x00023419       0x16 ./Core/Src/app.o
- .debug_macro   0x0002342f      0x146 ./Core/Src/app.o
- .debug_macro   0x00023575       0x10 ./Core/Src/app.o
- .debug_macro   0x00023585       0x16 ./Core/Src/app.o
- .debug_macro   0x0002359b      0x223 ./Core/Src/can.o
- .debug_macro   0x000237be      0x35a ./Core/Src/can_bus.o
- .debug_macro   0x00023b18       0xbf ./Core/Src/can_messages.o
- .debug_macro   0x00023bd7     0x309a ./Core/Src/can_messages.o
- .debug_macro   0x00026c71      0x304 ./Core/Src/debug.o
- .debug_macro   0x00026f75       0x9e ./Core/Src/debug.o
- .debug_macro   0x00027013      0x112 ./Core/Src/debug.o
- .debug_macro   0x00027125       0x56 ./Core/Src/debug.o
- .debug_macro   0x0002717b      0x223 ./Core/Src/digital_inputs.o
- .debug_macro   0x0002739e      0x223 ./Core/Src/dma.o
- .debug_macro   0x000275c1      0x223 ./Core/Src/gpio.o
- .debug_macro   0x000277e4      0x223 ./Core/Src/iwdg.o
- .debug_macro   0x00027a07      0x26d ./Core/Src/main.o
- .debug_macro   0x00027c74      0x219 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00027e8d      0x223 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x000280b0      0x274 ./Core/Src/syscalls.o
- .debug_macro   0x00028324       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028334       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028344       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028354       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028364       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x00028380       0x52 ./Core/Src/syscalls.o
- .debug_macro   0x000283d2       0x22 ./Core/Src/syscalls.o
- .debug_macro   0x000283f4       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028404       0x52 ./Core/Src/syscalls.o
- .debug_macro   0x00028456       0xcf ./Core/Src/syscalls.o
- .debug_macro   0x00028525       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x00028541       0x3d ./Core/Src/syscalls.o
- .debug_macro   0x0002857e       0x35 ./Core/Src/syscalls.o
- .debug_macro   0x000285b3      0x12c ./Core/Src/syscalls.o
- .debug_macro   0x000286df       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x000286f5       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x0002870b       0x29 ./Core/Src/syscalls.o
- .debug_macro   0x00028734       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x00028744      0x242 ./Core/Src/syscalls.o
- .debug_macro   0x00028986       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x000289a2       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x000289b2      0x18a ./Core/Src/syscalls.o
- .debug_macro   0x00028b3c       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x00028b52       0xce ./Core/Src/syscalls.o
- .debug_macro   0x00028c20      0x112 ./Core/Src/sysmem.o
- .debug_macro   0x00028d32      0x23c ./Core/Src/sysmem.o
- .debug_macro   0x00028f6e      0x20a ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x00029178      0x223 ./Core/Src/tim.o
- .debug_macro   0x0002939b      0x22d ./Core/Src/timebase.o
- .debug_macro   0x000295c8      0x223 ./Core/Src/usart.o
- .debug_macro   0x000297eb      0x22d ./Core/Src/watchdog.o
- .debug_macro   0x00029a18      0x26a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x00029c82      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_macro   0x00029e8d      0x219 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
- .debug_macro   0x0002a0a6      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x0002a2b0      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x0002a4c0      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x0002a6d0      0x216 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
- .debug_macro   0x0002a8e6      0x22e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x0002ab14      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_macro   0x0002ad1e      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_macro   0x0002af29      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_macro   0x0002b133      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_macro   0x00001a32      0x5f4 ./Core/DBC/autonomous_t26.o
+ .debug_macro   0x00002026      0x14c ./Core/DBC/powertrain_t26.o
+ .debug_macro   0x00002172     0x30ae ./Core/DBC/powertrain_t26.o
+ .debug_macro   0x00005220      0x223 ./Core/Src/adc.o
+ .debug_macro   0x00005443      0x2ad ./Core/Src/adc.o
+ .debug_macro   0x000056f0       0x2e ./Core/Src/adc.o
+ .debug_macro   0x0000571e       0x28 ./Core/Src/adc.o
+ .debug_macro   0x00005746       0x8e ./Core/Src/adc.o
+ .debug_macro   0x000057d4       0x51 ./Core/Src/adc.o
+ .debug_macro   0x00005825       0x1c ./Core/Src/adc.o
+ .debug_macro   0x00005841       0x22 ./Core/Src/adc.o
+ .debug_macro   0x00005863       0xfb ./Core/Src/adc.o
+ .debug_macro   0x0000595e     0x1011 ./Core/Src/adc.o
+ .debug_macro   0x0000696f      0x11f ./Core/Src/adc.o
+ .debug_macro   0x00006a8e    0x146b1 ./Core/Src/adc.o
+ .debug_macro   0x0001b13f       0x6d ./Core/Src/adc.o
+ .debug_macro   0x0001b1ac     0x3693 ./Core/Src/adc.o
+ .debug_macro   0x0001e83f       0x5c ./Core/Src/adc.o
+ .debug_macro   0x0001e89b      0x902 ./Core/Src/adc.o
+ .debug_macro   0x0001f19d      0x9e9 ./Core/Src/adc.o
+ .debug_macro   0x0001fb86      0x115 ./Core/Src/adc.o
+ .debug_macro   0x0001fc9b      0x192 ./Core/Src/adc.o
+ .debug_macro   0x0001fe2d       0xa5 ./Core/Src/adc.o
+ .debug_macro   0x0001fed2      0x158 ./Core/Src/adc.o
+ .debug_macro   0x0002002a      0x287 ./Core/Src/adc.o
+ .debug_macro   0x000202b1       0x5f ./Core/Src/adc.o
+ .debug_macro   0x00020310      0x236 ./Core/Src/adc.o
+ .debug_macro   0x00020546      0x9e1 ./Core/Src/adc.o
+ .debug_macro   0x00020f27      0x38b ./Core/Src/adc.o
+ .debug_macro   0x000212b2      0x176 ./Core/Src/adc.o
+ .debug_macro   0x00021428       0xf9 ./Core/Src/adc.o
+ .debug_macro   0x00021521      0x40f ./Core/Src/adc.o
+ .debug_macro   0x00021930      0x132 ./Core/Src/adc.o
+ .debug_macro   0x00021a62      0x29c ./Core/Src/adc.o
+ .debug_macro   0x00021cfe       0x2e ./Core/Src/adc.o
+ .debug_macro   0x00021d2c       0x78 ./Core/Src/adc.o
+ .debug_macro   0x00021da4      0x127 ./Core/Src/adc.o
+ .debug_macro   0x00021ecb       0x91 ./Core/Src/adc.o
+ .debug_macro   0x00021f5c       0x89 ./Core/Src/adc.o
+ .debug_macro   0x00021fe5      0x8ed ./Core/Src/adc.o
+ .debug_macro   0x000228d2       0x4d ./Core/Src/adc.o
+ .debug_macro   0x0002291f      0x2aa ./Core/Src/adc.o
+ .debug_macro   0x00022bc9      0x126 ./Core/Src/adc.o
+ .debug_macro   0x00022cef       0x4c ./Core/Src/adc.o
+ .debug_macro   0x00022d3b      0x293 ./Core/Src/analog.o
+ .debug_macro   0x00022fce      0x376 ./Core/Src/app.o
+ .debug_macro   0x00023344       0x61 ./Core/Src/app.o
+ .debug_macro   0x000233a5       0x16 ./Core/Src/app.o
+ .debug_macro   0x000233bb       0x10 ./Core/Src/app.o
+ .debug_macro   0x000233cb       0x16 ./Core/Src/app.o
+ .debug_macro   0x000233e1       0x16 ./Core/Src/app.o
+ .debug_macro   0x000233f7      0x146 ./Core/Src/app.o
+ .debug_macro   0x0002353d       0x10 ./Core/Src/app.o
+ .debug_macro   0x0002354d       0x16 ./Core/Src/app.o
+ .debug_macro   0x00023563      0x223 ./Core/Src/can.o
+ .debug_macro   0x00023786      0x35a ./Core/Src/can_bus.o
+ .debug_macro   0x00023ae0       0xbf ./Core/Src/can_messages.o
+ .debug_macro   0x00023b9f     0x30a8 ./Core/Src/can_messages.o
+ .debug_macro   0x00026c47      0x304 ./Core/Src/debug.o
+ .debug_macro   0x00026f4b       0x9e ./Core/Src/debug.o
+ .debug_macro   0x00026fe9      0x112 ./Core/Src/debug.o
+ .debug_macro   0x000270fb       0x56 ./Core/Src/debug.o
+ .debug_macro   0x00027151      0x223 ./Core/Src/digital_inputs.o
+ .debug_macro   0x00027374      0x223 ./Core/Src/dma.o
+ .debug_macro   0x00027597      0x223 ./Core/Src/gpio.o
+ .debug_macro   0x000277ba      0x223 ./Core/Src/iwdg.o
+ .debug_macro   0x000279dd      0x26d ./Core/Src/main.o
+ .debug_macro   0x00027c4a      0x219 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00027e63      0x223 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x00028086      0x274 ./Core/Src/syscalls.o
+ .debug_macro   0x000282fa       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0002830a       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0002831a       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0002832a       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0002833a       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x00028356       0x52 ./Core/Src/syscalls.o
+ .debug_macro   0x000283a8       0x22 ./Core/Src/syscalls.o
+ .debug_macro   0x000283ca       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000283da       0x52 ./Core/Src/syscalls.o
+ .debug_macro   0x0002842c       0xcf ./Core/Src/syscalls.o
+ .debug_macro   0x000284fb       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x00028517       0x3d ./Core/Src/syscalls.o
+ .debug_macro   0x00028554       0x35 ./Core/Src/syscalls.o
+ .debug_macro   0x00028589      0x12c ./Core/Src/syscalls.o
+ .debug_macro   0x000286b5       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x000286cb       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x000286e1       0x29 ./Core/Src/syscalls.o
+ .debug_macro   0x0002870a       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0002871a      0x242 ./Core/Src/syscalls.o
+ .debug_macro   0x0002895c       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x00028978       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x00028988      0x18a ./Core/Src/syscalls.o
+ .debug_macro   0x00028b12       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x00028b28       0xce ./Core/Src/syscalls.o
+ .debug_macro   0x00028bf6      0x112 ./Core/Src/sysmem.o
+ .debug_macro   0x00028d08      0x23c ./Core/Src/sysmem.o
+ .debug_macro   0x00028f44      0x20a ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x0002914e      0x223 ./Core/Src/tim.o
+ .debug_macro   0x00029371      0x22d ./Core/Src/timebase.o
+ .debug_macro   0x0002959e      0x223 ./Core/Src/usart.o
+ .debug_macro   0x000297c1      0x22d ./Core/Src/watchdog.o
+ .debug_macro   0x000299ee      0x26a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x00029c58      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_macro   0x00029e63      0x219 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+ .debug_macro   0x0002a07c      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x0002a286      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x0002a496      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x0002a6a6      0x216 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+ .debug_macro   0x0002a8bc      0x22e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x0002aaea      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_macro   0x0002acf4      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_macro   0x0002aeff      0x20a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_macro   0x0002b109      0x20b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_line     0x00000000    0x445aa
- .debug_line    0x00000000     0x3ef7 ./Core/DBC/autonomous_t26.o
- .debug_line    0x00003ef7    0x25b9f ./Core/DBC/powertrain_t26.o
- .debug_line    0x00029a96      0x8c6 ./Core/Src/adc.o
- .debug_line    0x0002a35c      0x991 ./Core/Src/analog.o
- .debug_line    0x0002aced      0xb03 ./Core/Src/app.o
- .debug_line    0x0002b7f0      0x8fa ./Core/Src/can.o
- .debug_line    0x0002c0ea      0xc9e ./Core/Src/can_bus.o
- .debug_line    0x0002cd88      0x54e ./Core/Src/can_messages.o
- .debug_line    0x0002d2d6      0x917 ./Core/Src/debug.o
- .debug_line    0x0002dbed      0x819 ./Core/Src/digital_inputs.o
- .debug_line    0x0002e406      0x7b8 ./Core/Src/dma.o
- .debug_line    0x0002ebbe      0x7d6 ./Core/Src/gpio.o
- .debug_line    0x0002f394      0x7cd ./Core/Src/iwdg.o
- .debug_line    0x0002fb61      0x88a ./Core/Src/main.o
- .debug_line    0x000303eb      0x7bc ./Core/Src/stm32f4xx_hal_msp.o
- .debug_line    0x00030ba7      0x95b ./Core/Src/stm32f4xx_it.o
- .debug_line    0x00031502      0x8ac ./Core/Src/syscalls.o
- .debug_line    0x00031dae      0x588 ./Core/Src/sysmem.o
- .debug_line    0x00032336      0x832 ./Core/Src/system_stm32f4xx.o
- .debug_line    0x00032b68      0x80b ./Core/Src/tim.o
- .debug_line    0x00033373      0x807 ./Core/Src/timebase.o
- .debug_line    0x00033b7a      0x82a ./Core/Src/usart.o
- .debug_line    0x000343a4      0x87d ./Core/Src/watchdog.o
- .debug_line    0x00034c21       0x7a ./Core/Startup/startup_stm32f412retx.o
- .debug_line    0x00034c9b      0xaae ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x00035749     0x11f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_line    0x00036942     0x126d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
- .debug_line    0x00037baf      0xd7e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x0003892d     0x101a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_line    0x00039947      0xbb6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x0003a4fd      0x83b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
- .debug_line    0x0003ad38      0xec9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x0003bc01     0x1182 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_line    0x0003cd83     0x3823 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_line    0x000405a6     0x1a0e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_line    0x00041fb4     0x25f6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+.debug_line     0x00000000    0x444b6
+ .debug_line    0x00000000     0x3cc3 ./Core/DBC/autonomous_t26.o
+ .debug_line    0x00003cc3    0x25cdf ./Core/DBC/powertrain_t26.o
+ .debug_line    0x000299a2      0x8c6 ./Core/Src/adc.o
+ .debug_line    0x0002a268      0x991 ./Core/Src/analog.o
+ .debug_line    0x0002abf9      0xb03 ./Core/Src/app.o
+ .debug_line    0x0002b6fc      0x8fa ./Core/Src/can.o
+ .debug_line    0x0002bff6      0xc9e ./Core/Src/can_bus.o
+ .debug_line    0x0002cc94      0x54e ./Core/Src/can_messages.o
+ .debug_line    0x0002d1e2      0x917 ./Core/Src/debug.o
+ .debug_line    0x0002daf9      0x819 ./Core/Src/digital_inputs.o
+ .debug_line    0x0002e312      0x7b8 ./Core/Src/dma.o
+ .debug_line    0x0002eaca      0x7d6 ./Core/Src/gpio.o
+ .debug_line    0x0002f2a0      0x7cd ./Core/Src/iwdg.o
+ .debug_line    0x0002fa6d      0x88a ./Core/Src/main.o
+ .debug_line    0x000302f7      0x7bc ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_line    0x00030ab3      0x95b ./Core/Src/stm32f4xx_it.o
+ .debug_line    0x0003140e      0x8ac ./Core/Src/syscalls.o
+ .debug_line    0x00031cba      0x588 ./Core/Src/sysmem.o
+ .debug_line    0x00032242      0x832 ./Core/Src/system_stm32f4xx.o
+ .debug_line    0x00032a74      0x80b ./Core/Src/tim.o
+ .debug_line    0x0003327f      0x807 ./Core/Src/timebase.o
+ .debug_line    0x00033a86      0x82a ./Core/Src/usart.o
+ .debug_line    0x000342b0      0x87d ./Core/Src/watchdog.o
+ .debug_line    0x00034b2d       0x7a ./Core/Startup/startup_stm32f412retx.o
+ .debug_line    0x00034ba7      0xaae ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x00035655     0x11f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_line    0x0003684e     0x126d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+ .debug_line    0x00037abb      0xd7e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x00038839     0x101a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_line    0x00039853      0xbb6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x0003a409      0x83b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+ .debug_line    0x0003ac44      0xec9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x0003bb0d     0x1182 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_line    0x0003cc8f     0x3823 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_line    0x000404b2     0x1a0e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_line    0x00041ec0     0x25f6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_str      0x00000000   0x131bc9
- .debug_str     0x00000000   0x131bc9 ./Core/DBC/autonomous_t26.o
-                               0xee37 (size before relaxing)
- .debug_str     0x00131bc9    0x5df30 ./Core/DBC/powertrain_t26.o
- .debug_str     0x00131bc9    0xc91ea ./Core/Src/adc.o
- .debug_str     0x00131bc9    0xc926e ./Core/Src/analog.o
- .debug_str     0x00131bc9    0xcc838 ./Core/Src/app.o
- .debug_str     0x00131bc9    0xc953a ./Core/Src/can.o
- .debug_str     0x00131bc9    0xccaa4 ./Core/Src/can_bus.o
- .debug_str     0x00131bc9    0x25f10 ./Core/Src/can_messages.o
- .debug_str     0x00131bc9    0xcc809 ./Core/Src/debug.o
- .debug_str     0x00131bc9    0xc8c3b ./Core/Src/digital_inputs.o
- .debug_str     0x00131bc9    0xc917e ./Core/Src/dma.o
- .debug_str     0x00131bc9    0xc8d52 ./Core/Src/gpio.o
- .debug_str     0x00131bc9    0xc8c0a ./Core/Src/iwdg.o
- .debug_str     0x00131bc9    0xc8f12 ./Core/Src/main.o
- .debug_str     0x00131bc9    0xc8c87 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_str     0x00131bc9    0xc9492 ./Core/Src/stm32f4xx_it.o
- .debug_str     0x00131bc9     0x99dc ./Core/Src/syscalls.o
- .debug_str     0x00131bc9     0x777a ./Core/Src/sysmem.o
- .debug_str     0x00131bc9    0xc8c2a ./Core/Src/system_stm32f4xx.o
- .debug_str     0x00131bc9    0xc974d ./Core/Src/tim.o
- .debug_str     0x00131bc9    0xc912e ./Core/Src/timebase.o
- .debug_str     0x00131bc9    0xc920f ./Core/Src/usart.o
- .debug_str     0x00131bc9    0xc8e74 ./Core/Src/watchdog.o
- .debug_str     0x00131bc9       0x7c ./Core/Startup/startup_stm32f412retx.o
- .debug_str     0x00131bc9    0xc9788 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_str     0x00131bc9    0xc91f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_str     0x00131bc9    0xc9300 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
- .debug_str     0x00131bc9    0xc94e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_str     0x00131bc9    0xc9020 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_str     0x00131bc9    0xc8dab ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_str     0x00131bc9    0xc8bbd ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
- .debug_str     0x00131bc9    0xc9063 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_str     0x00131bc9    0xc8f63 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_str     0x00131bc9    0xc9f90 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_str     0x00131bc9    0xc979c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_str     0x00131bc9    0xc961b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+.debug_str      0x00000000   0x131ac2
+ .debug_str     0x00000000   0x131ac2 ./Core/DBC/autonomous_t26.o
+                               0xeaaf (size before relaxing)
+ .debug_str     0x00131ac2    0x5e1b1 ./Core/DBC/powertrain_t26.o
+ .debug_str     0x00131ac2    0xc91ea ./Core/Src/adc.o
+ .debug_str     0x00131ac2    0xc926e ./Core/Src/analog.o
+ .debug_str     0x00131ac2    0xcc838 ./Core/Src/app.o
+ .debug_str     0x00131ac2    0xc953a ./Core/Src/can.o
+ .debug_str     0x00131ac2    0xccaa4 ./Core/Src/can_bus.o
+ .debug_str     0x00131ac2    0x25e2c ./Core/Src/can_messages.o
+ .debug_str     0x00131ac2    0xcc809 ./Core/Src/debug.o
+ .debug_str     0x00131ac2    0xc8c3b ./Core/Src/digital_inputs.o
+ .debug_str     0x00131ac2    0xc917e ./Core/Src/dma.o
+ .debug_str     0x00131ac2    0xc8d52 ./Core/Src/gpio.o
+ .debug_str     0x00131ac2    0xc8c0a ./Core/Src/iwdg.o
+ .debug_str     0x00131ac2    0xc8f12 ./Core/Src/main.o
+ .debug_str     0x00131ac2    0xc8c87 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x00131ac2    0xc9492 ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00131ac2     0x99dc ./Core/Src/syscalls.o
+ .debug_str     0x00131ac2     0x777a ./Core/Src/sysmem.o
+ .debug_str     0x00131ac2    0xc8c2a ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x00131ac2    0xc974d ./Core/Src/tim.o
+ .debug_str     0x00131ac2    0xc912e ./Core/Src/timebase.o
+ .debug_str     0x00131ac2    0xc920f ./Core/Src/usart.o
+ .debug_str     0x00131ac2    0xc8e74 ./Core/Src/watchdog.o
+ .debug_str     0x00131ac2       0x7c ./Core/Startup/startup_stm32f412retx.o
+ .debug_str     0x00131ac2    0xc9788 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x00131ac2    0xc91f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_str     0x00131ac2    0xc9300 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+ .debug_str     0x00131ac2    0xc94e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00131ac2    0xc9020 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_str     0x00131ac2    0xc8dab ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x00131ac2    0xc8bbd ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+ .debug_str     0x00131ac2    0xc9063 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00131ac2    0xc8f63 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_str     0x00131ac2    0xc9f90 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_str     0x00131ac2    0xc979c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_str     0x00131ac2    0xc961b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Core/DBC/autonomous_t26.o
@@ -14885,90 +16180,90 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x00000043       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .comment       0x00000043       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_frame    0x00000000    0x29394
- .debug_frame   0x00000000     0x36f8 ./Core/DBC/autonomous_t26.o
- .debug_frame   0x000036f8    0x201fc ./Core/DBC/powertrain_t26.o
- .debug_frame   0x000238f4       0x7c ./Core/Src/adc.o
- .debug_frame   0x00023970      0x160 ./Core/Src/analog.o
- .debug_frame   0x00023ad0       0xe0 ./Core/Src/app.o
- .debug_frame   0x00023bb0       0x90 ./Core/Src/can.o
- .debug_frame   0x00023c40      0x1b4 ./Core/Src/can_bus.o
- .debug_frame   0x00023df4       0x98 ./Core/Src/can_messages.o
- .debug_frame   0x00023e8c       0x34 ./Core/Src/debug.o
- .debug_frame   0x00023ec0       0x6c ./Core/Src/digital_inputs.o
- .debug_frame   0x00023f2c       0x34 ./Core/Src/dma.o
- .debug_frame   0x00023f60       0x34 ./Core/Src/gpio.o
- .debug_frame   0x00023f94       0x2c ./Core/Src/iwdg.o
- .debug_frame   0x00023fc0       0x68 ./Core/Src/main.o
- .debug_frame   0x00024028       0x38 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_frame   0x00024060      0x21c ./Core/Src/stm32f4xx_it.o
- .debug_frame   0x0002427c      0x2ac ./Core/Src/syscalls.o
- .debug_frame   0x00024528       0x34 ./Core/Src/sysmem.o
- .debug_frame   0x0002455c       0x58 ./Core/Src/system_stm32f4xx.o
- .debug_frame   0x000245b4       0x74 ./Core/Src/tim.o
- .debug_frame   0x00024628       0x74 ./Core/Src/timebase.o
- .debug_frame   0x0002469c       0x74 ./Core/Src/usart.o
- .debug_frame   0x00024710       0xa8 ./Core/Src/watchdog.o
- .debug_frame   0x000247b8      0x374 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_frame   0x00024b2c      0x3fc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_frame   0x00024f28      0x5a0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
- .debug_frame   0x000254c8      0x508 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_frame   0x000259d0      0x250 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_frame   0x00025c20      0x14c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_frame   0x00025d6c       0x5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
- .debug_frame   0x00025dc8      0x1f4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_frame   0x00025fbc      0x16c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_frame   0x00026128     0x11c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_frame   0x000272e8      0x638 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_frame   0x00027920      0x954 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
- .debug_frame   0x00028274       0x90 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_float.o)
- .debug_frame   0x00028304       0x60 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x00028364      0x144 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x000284a8       0x34 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
- .debug_frame   0x000284dc       0x6c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
- .debug_frame   0x00028548       0x88 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
- .debug_frame   0x000285d0       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x000285f0       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-localeconv.o)
- .debug_frame   0x00028630       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
- .debug_frame   0x0002865c       0x38 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
- .debug_frame   0x00028694       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
- .debug_frame   0x000286c0       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
- .debug_frame   0x000286ec       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
- .debug_frame   0x00028718       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
- .debug_frame   0x00028738       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x00028764       0xb0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
- .debug_frame   0x00028814       0x70 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-dtoa.o)
- .debug_frame   0x00028884       0x38 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
- .debug_frame   0x000288bc       0x30 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
- .debug_frame   0x000288ec       0x50 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
- .debug_frame   0x0002893c       0x30 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
- .debug_frame   0x0002896c      0x260 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
- .debug_frame   0x00028bcc       0xa8 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x00028c74       0x5c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
- .debug_frame   0x00028cd0       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
- .debug_frame   0x00028d10       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
- .debug_frame   0x00028d3c       0x48 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
- .debug_frame   0x00028d84       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x00028db0       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x00028dd8       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
- .debug_frame   0x00028e18       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-callocr.o)
- .debug_frame   0x00028e44       0x48 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mbtowc_r.o)
- .debug_frame   0x00028e8c       0x3c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wctomb_r.o)
- .debug_frame   0x00028ec8       0x64 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
- .debug_frame   0x00028f2c       0x58 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
- .debug_frame   0x00028f84       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
- .debug_frame   0x00028fb0       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
- .debug_frame   0x00028fdc       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
- .debug_frame   0x00029004       0xcc C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
- .debug_frame   0x000290d0       0x3c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
- .debug_frame   0x0002910c       0xac C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000291b8       0x50 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00029208       0xc4 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x000292cc       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x000292ec       0x24 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00029310       0x24 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x00029334       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00029360       0x34 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+.debug_frame    0x00000000    0x292bc
+ .debug_frame   0x00000000     0x34f0 ./Core/DBC/autonomous_t26.o
+ .debug_frame   0x000034f0    0x2032c ./Core/DBC/powertrain_t26.o
+ .debug_frame   0x0002381c       0x7c ./Core/Src/adc.o
+ .debug_frame   0x00023898      0x160 ./Core/Src/analog.o
+ .debug_frame   0x000239f8       0xe0 ./Core/Src/app.o
+ .debug_frame   0x00023ad8       0x90 ./Core/Src/can.o
+ .debug_frame   0x00023b68      0x1b4 ./Core/Src/can_bus.o
+ .debug_frame   0x00023d1c       0x98 ./Core/Src/can_messages.o
+ .debug_frame   0x00023db4       0x34 ./Core/Src/debug.o
+ .debug_frame   0x00023de8       0x6c ./Core/Src/digital_inputs.o
+ .debug_frame   0x00023e54       0x34 ./Core/Src/dma.o
+ .debug_frame   0x00023e88       0x34 ./Core/Src/gpio.o
+ .debug_frame   0x00023ebc       0x2c ./Core/Src/iwdg.o
+ .debug_frame   0x00023ee8       0x68 ./Core/Src/main.o
+ .debug_frame   0x00023f50       0x38 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_frame   0x00023f88      0x21c ./Core/Src/stm32f4xx_it.o
+ .debug_frame   0x000241a4      0x2ac ./Core/Src/syscalls.o
+ .debug_frame   0x00024450       0x34 ./Core/Src/sysmem.o
+ .debug_frame   0x00024484       0x58 ./Core/Src/system_stm32f4xx.o
+ .debug_frame   0x000244dc       0x74 ./Core/Src/tim.o
+ .debug_frame   0x00024550       0x74 ./Core/Src/timebase.o
+ .debug_frame   0x000245c4       0x74 ./Core/Src/usart.o
+ .debug_frame   0x00024638       0xa8 ./Core/Src/watchdog.o
+ .debug_frame   0x000246e0      0x374 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_frame   0x00024a54      0x3fc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_frame   0x00024e50      0x5a0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o
+ .debug_frame   0x000253f0      0x508 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_frame   0x000258f8      0x250 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_frame   0x00025b48      0x14c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_frame   0x00025c94       0x5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.o
+ .debug_frame   0x00025cf0      0x1f4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_frame   0x00025ee4      0x16c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_frame   0x00026050     0x11c0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_frame   0x00027210      0x638 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_frame   0x00027848      0x954 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_frame   0x0002819c       0x90 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_float.o)
+ .debug_frame   0x0002822c       0x60 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x0002828c      0x144 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000283d0       0x34 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00028404       0x6c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-printf.o)
+ .debug_frame   0x00028470       0x88 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x000284f8       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00028518       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-localeconv.o)
+ .debug_frame   0x00028558       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00028584       0x38 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x000285bc       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x000285e8       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00028614       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00028640       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x00028660       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x0002868c       0xb0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x0002873c       0x70 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-dtoa.o)
+ .debug_frame   0x000287ac       0x38 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x000287e4       0x30 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x00028814       0x50 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00028864       0x30 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00028894      0x260 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+ .debug_frame   0x00028af4       0xa8 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x00028b9c       0x5c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00028bf8       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x00028c38       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x00028c64       0x48 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
+ .debug_frame   0x00028cac       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00028cd8       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x00028d00       0x40 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
+ .debug_frame   0x00028d40       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-callocr.o)
+ .debug_frame   0x00028d6c       0x48 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mbtowc_r.o)
+ .debug_frame   0x00028db4       0x3c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wctomb_r.o)
+ .debug_frame   0x00028df0       0x64 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
+ .debug_frame   0x00028e54       0x58 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x00028eac       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x00028ed8       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x00028f04       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
+ .debug_frame   0x00028f2c       0xcc C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
+ .debug_frame   0x00028ff8       0x3c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
+ .debug_frame   0x00029034       0xac C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000290e0       0x50 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00029130       0xc4 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000291f4       0x20 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00029214       0x24 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00029238       0x24 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0002925c       0x2c C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00029288       0x34 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
 
 .debug_line_str
                 0x00000000       0x60

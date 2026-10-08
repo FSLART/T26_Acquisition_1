@@ -1,4 +1,5 @@
 "./Core/DBC/autonomous_t26.o"
+"./Core/DBC/data_t26.o"
 "./Core/DBC/powertrain_t26.o"
 "./Core/Src/adc.o"
 "./Core/Src/analog.o"
